@@ -1,0 +1,255 @@
+{
+    "took": 14,
+    "timed_out": false,
+    "_shards": {
+      "total": 5,
+      "successful": 5,
+      "skipped": 0,
+      "failed": 0
+    },
+    "hits": {
+      "total": 76549,
+      "max_score": 0,
+      "hits": []
+    },
+    "aggregations": {
+      "group_by_category": {
+        "doc_count_error_upper_bound": 0,
+        "sum_other_doc_count": 0,
+        "buckets": [
+          {
+            "key": "Medallia",
+            "doc_count": 52090,
+            "group_by_category": {
+              "doc_count_error_upper_bound": 86,
+              "sum_other_doc_count": 4330,
+              "buckets": [
+                {
+                  "key": "Positive Comment",
+                  "doc_count": 26321
+                },
+                {
+                  "key": "Login/Auth",
+                  "doc_count": 11886
+                },
+                {
+                  "key": "Link Accounts",
+                  "doc_count": 1472
+                },
+                {
+                  "key": "Mobile Chk Dep",
+                  "doc_count": 1135
+                },
+                {
+                  "key": "Bill Pay",
+                  "doc_count": 1092
+                },
+                {
+                  "key": "Rewards",
+                  "doc_count": 1052
+                },
+                {
+                  "key": "Customer Service",
+                  "doc_count": 941
+                },
+                {
+                  "key": "Web UI/UX",
+                  "doc_count": 901
+                },
+                {
+                  "key": "Mobile App Perf",
+                  "doc_count": 812
+                },
+                {
+                  "key": "Paymt Flow",
+                  "doc_count": 760
+                },
+                {
+                  "key": "Transfer",
+                  "doc_count": 710
+                },
+                {
+                  "key": "Transactions",
+                  "doc_count": 678
+                }
+              ]
+            }
+          },
+          {
+            "key": "Opinion Lab",
+            "doc_count": 21335,
+            "group_by_category": {
+              "doc_count_error_upper_bound": 58,
+              "sum_other_doc_count": 3360,
+              "buckets": [
+                {
+                  "key": "Login/Auth",
+                  "doc_count": 7109
+                },
+                {
+                  "key": "Positive Comment",
+                  "doc_count": 1663
+                },
+                {
+                  "key": "Due Date",
+                  "doc_count": 1549
+                },
+                {
+                  "key": "Mobile Chk Dep",
+                  "doc_count": 1240
+                },
+                {
+                  "key": "Mobile App Perf",
+                  "doc_count": 1038
+                },
+                {
+                  "key": "Live Chat",
+                  "doc_count": 868
+                },
+                {
+                  "key": "Link Accounts",
+                  "doc_count": 833
+                },
+                {
+                  "key": "Paymt Flow",
+                  "doc_count": 832
+                },
+                {
+                  "key": "Transactions",
+                  "doc_count": 818
+                },
+                {
+                  "key": "Bill Pay",
+                  "doc_count": 810
+                },
+                {
+                  "key": "Web UI/UX",
+                  "doc_count": 764
+                },
+                {
+                  "key": "Balances",
+                  "doc_count": 451
+                }
+              ]
+            }
+          },
+          {
+            "key": "Play Store",
+            "doc_count": 1865,
+            "group_by_category": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 62,
+              "buckets": [
+                {
+                  "key": "Login/Auth",
+                  "doc_count": 672
+                },
+                {
+                  "key": "Mobile App Perf",
+                  "doc_count": 385
+                },
+                {
+                  "key": "Paymt Flow",
+                  "doc_count": 233
+                },
+                {
+                  "key": "Android FP",
+                  "doc_count": 163
+                },
+                {
+                  "key": "Positive Comment",
+                  "doc_count": 120
+                },
+                {
+                  "key": "Mobile Chk Dep",
+                  "doc_count": 81
+                },
+                {
+                  "key": "Bill Pay",
+                  "doc_count": 49
+                },
+                {
+                  "key": "Link Accounts",
+                  "doc_count": 28
+                },
+                {
+                  "key": "Transfer",
+                  "doc_count": 20
+                },
+                {
+                  "key": "Extra Pay",
+                  "doc_count": 18
+                },
+                {
+                  "key": "Transactions",
+                  "doc_count": 18
+                },
+                {
+                  "key": "Zelle",
+                  "doc_count": 16
+                }
+              ]
+            }
+          },
+          {
+            "key": "App Store",
+            "doc_count": 1259,
+            "group_by_category": {
+              "doc_count_error_upper_bound": 0,
+              "sum_other_doc_count": 72,
+              "buckets": [
+                {
+                  "key": "Positive Comment",
+                  "doc_count": 515
+                },
+                {
+                  "key": "Login/Auth",
+                  "doc_count": 246
+                },
+                {
+                  "key": "Mobile App Perf",
+                  "doc_count": 116
+                },
+                {
+                  "key": "Mobile Chk Dep",
+                  "doc_count": 73
+                },
+                {
+                  "key": "Bill Pay",
+                  "doc_count": 60
+                },
+                {
+                  "key": "Paymt Flow",
+                  "doc_count": 43
+                },
+                {
+                  "key": "Link Accounts",
+                  "doc_count": 34
+                },
+                {
+                  "key": "Transfer",
+                  "doc_count": 34
+                },
+                {
+                  "key": "Touch ID",
+                  "doc_count": 20
+                },
+                {
+                  "key": "Due Date",
+                  "doc_count": 18
+                },
+                {
+                  "key": "Transactions",
+                  "doc_count": 15
+                },
+                {
+                  "key": "FICO",
+                  "doc_count": 13
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
