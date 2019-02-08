@@ -59,20 +59,19 @@ export class AppComponent implements OnInit{
           };
           
           function recur(old, arr) {
-            let toRet = old;
             arr.forEach((data, index) => {
-              if (toRet.indexOf(data.key) < 0 && data.key != "Positive Comment") {
+              if (old.indexOf(data.key) < 0 && data.key != "Positive Comment") {
                 //remove duplicates
-                toRet.push(data.key);
+                old.push(data.key);
               }
               if (
                 data.group_by_category !== undefined &&
                 data.group_by_category.buckets.length > 0
               ) {
-                recur(toRet, data.group_by_category.buckets);
+                recur(old, data.group_by_category.buckets);
               }
             });
-            return toRet;
+            return old;
           }
           
           var uniqueKeys = recur([], data.aggregations.group_by_category.buckets);
@@ -108,13 +107,11 @@ export class AppComponent implements OnInit{
           })
           
 
-
-         ////end of adding
          data = {
             nodes, links
          }
          console.log(data);
-         
+         ////end of adding
         
           sankey(data);
 
