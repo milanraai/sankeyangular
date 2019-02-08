@@ -1,0 +1,2799 @@
+{
+  "took": 47,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 155870,
+    "max_score": 0,
+    "hits": []
+  },
+  "aggregations": {
+    "group_by_category": {
+      "doc_count_error_upper_bound": 0,
+      "sum_other_doc_count": 0,
+      "buckets": [
+        {
+          "key": "Medallia",
+          "doc_count": 105536,
+          "group_by_category": {
+            "doc_count_error_upper_bound": 161,
+            "sum_other_doc_count": 8687,
+            "buckets": [
+              {
+                "key": "Unknown-main",
+                "doc_count": 54993,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 395,
+                  "sum_other_doc_count": 16475,
+                  "buckets": [
+                    {
+                      "key": "Unknown",
+                      "doc_count": 19719
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 4757
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 2771
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 1721
+                    },
+                    {
+                      "key": "safe secure service",
+                      "doc_count": 1660
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 1441
+                    },
+                    {
+                      "key": "credit card recommendation",
+                      "doc_count": 1359
+                    },
+                    {
+                      "key": "information provided",
+                      "doc_count": 1132
+                    },
+                    {
+                      "key": "snapshot issue; site visit feedback",
+                      "doc_count": 1075
+                    },
+                    {
+                      "key": "user experience technical difficulty",
+                      "doc_count": 1037
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 1002
+                    },
+                    {
+                      "key": "professinal courteous helpful staff",
+                      "doc_count": 844
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Login/Auth",
+                "doc_count": 15097,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 166,
+                  "sum_other_doc_count": 7305,
+                  "buckets": [
+                    {
+                      "key": "website/app, user friendly, easy to navigate",
+                      "doc_count": 1470
+                    },
+                    {
+                      "key": "log in/out issue",
+                      "doc_count": 813
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 637
+                    },
+                    {
+                      "key": "safe secure service",
+                      "doc_count": 632
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 628
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 628
+                    },
+                    {
+                      "key": "touchID password not recognized, had to reset; can't paste password",
+                      "doc_count": 592
+                    },
+                    {
+                      "key": "information provided",
+                      "doc_count": 533
+                    },
+                    {
+                      "key": "lock/unlock security feature",
+                      "doc_count": 493
+                    },
+                    {
+                      "key": "had To Log In Out multiple times",
+                      "doc_count": 486
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 463
+                    },
+                    {
+                      "key": "fingerPrint/touch/sign in/out issue",
+                      "doc_count": 417
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Web UI/UX",
+                "doc_count": 6114,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 26,
+                  "sum_other_doc_count": 1129,
+                  "buckets": [
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 2534
+                    },
+                    {
+                      "key": "snapshot issue; site visit feedback",
+                      "doc_count": 407
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 359
+                    },
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 285
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 225
+                    },
+                    {
+                      "key": "information provided",
+                      "doc_count": 225
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 192
+                    },
+                    {
+                      "key": "credit card recommendation",
+                      "doc_count": 173
+                    },
+                    {
+                      "key": "website/app, user friendly, easy to navigate",
+                      "doc_count": 166
+                    },
+                    {
+                      "key": "app/website design, easy to use, clean UI",
+                      "doc_count": 153
+                    },
+                    {
+                      "key": "high interest rate after promo apr",
+                      "doc_count": 138
+                    },
+                    {
+                      "key": "clear easy instructions",
+                      "doc_count": 128
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Customer Service",
+                "doc_count": 2809,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 3,
+                  "sum_other_doc_count": 123,
+                  "buckets": [
+                    {
+                      "key": "poor customer service",
+                      "doc_count": 1975
+                    },
+                    {
+                      "key": "long term customer experience ",
+                      "doc_count": 130
+                    },
+                    {
+                      "key": "calling customer service issues",
+                      "doc_count": 121
+                    },
+                    {
+                      "key": "professinal courteous helpful staff",
+                      "doc_count": 98
+                    },
+                    {
+                      "key": "good service",
+                      "doc_count": 87
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 79
+                    },
+                    {
+                      "key": "safe secure service",
+                      "doc_count": 54
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 45
+                    },
+                    {
+                      "key": "high interest rate after promo apr",
+                      "doc_count": 34
+                    },
+                    {
+                      "key": "quick efficient customer service",
+                      "doc_count": 27
+                    },
+                    {
+                      "key": "cash back rewards program challenge",
+                      "doc_count": 20
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 16
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Live Chat",
+                "doc_count": 2711,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 11,
+                  "sum_other_doc_count": 486,
+                  "buckets": [
+                    {
+                      "key": "good service",
+                      "doc_count": 531
+                    },
+                    {
+                      "key": "professinal courteous helpful staff",
+                      "doc_count": 426
+                    },
+                    {
+                      "key": "customer service representitve communication (accent)",
+                      "doc_count": 246
+                    },
+                    {
+                      "key": "safe secure service",
+                      "doc_count": 234
+                    },
+                    {
+                      "key": "dissatisfying live chat experience",
+                      "doc_count": 189
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 174
+                    },
+                    {
+                      "key": "poor customer service",
+                      "doc_count": 107
+                    },
+                    {
+                      "key": "quick efficient customer service",
+                      "doc_count": 90
+                    },
+                    {
+                      "key": "credit card recommendation",
+                      "doc_count": 63
+                    },
+                    {
+                      "key": "phone/chat wait time too long",
+                      "doc_count": 60
+                    },
+                    {
+                      "key": "calling customer service issues",
+                      "doc_count": 59
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 46
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Link Accounts",
+                "doc_count": 2651,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 22,
+                  "sum_other_doc_count": 968,
+                  "buckets": [
+                    {
+                      "key": "credit card recommendation",
+                      "doc_count": 396
+                    },
+                    {
+                      "key": "costco visa benefit",
+                      "doc_count": 330
+                    },
+                    {
+                      "key": "business and personal account, one log in ",
+                      "doc_count": 169
+                    },
+                    {
+                      "key": "card activation problem",
+                      "doc_count": 167
+                    },
+                    {
+                      "key": "high interest rate after promo apr",
+                      "doc_count": 97
+                    },
+                    {
+                      "key": "multiple attempts to log in (repeat process)",
+                      "doc_count": 93
+                    },
+                    {
+                      "key": "good service",
+                      "doc_count": 87
+                    },
+                    {
+                      "key": "gun policy resistance ",
+                      "doc_count": 83
+                    },
+                    {
+                      "key": "user experience technical difficulty",
+                      "doc_count": 74
+                    },
+                    {
+                      "key": "travel notification problem",
+                      "doc_count": 65
+                    },
+                    {
+                      "key": "credit line increase",
+                      "doc_count": 62
+                    },
+                    {
+                      "key": "lock/unlock security feature",
+                      "doc_count": 60
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Bill Pay",
+                "doc_count": 2609,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 24,
+                  "sum_other_doc_count": 1116,
+                  "buckets": [
+                    {
+                      "key": "add payee/pay by paper check slow",
+                      "doc_count": 436
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 249
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 146
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 99
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 82
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 82
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 74
+                    },
+                    {
+                      "key": "high interest rate after promo apr",
+                      "doc_count": 73
+                    },
+                    {
+                      "key": "snapshot issue; site visit feedback",
+                      "doc_count": 70
+                    },
+                    {
+                      "key": "cash back rewards program challenge",
+                      "doc_count": 64
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 64
+                    },
+                    {
+                      "key": "information provided",
+                      "doc_count": 54
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Rewards",
+                "doc_count": 2558,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 5,
+                  "sum_other_doc_count": 254,
+                  "buckets": [
+                    {
+                      "key": "cash back rewards program challenge",
+                      "doc_count": 1520
+                    },
+                    {
+                      "key": "redeem points/rewards",
+                      "doc_count": 363
+                    },
+                    {
+                      "key": "costco visa benefit",
+                      "doc_count": 135
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 73
+                    },
+                    {
+                      "key": "high interest rate after promo apr",
+                      "doc_count": 45
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 32
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 32
+                    },
+                    {
+                      "key": "safe secure service",
+                      "doc_count": 24
+                    },
+                    {
+                      "key": "website/app, user friendly, easy to navigate",
+                      "doc_count": 22
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "interest, late fees complaint",
+                      "doc_count": 16
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile Chk Dep",
+                "doc_count": 2266,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 27,
+                  "sum_other_doc_count": 1119,
+                  "buckets": [
+                    {
+                      "key": "mobile check deposit issues",
+                      "doc_count": 201
+                    },
+                    {
+                      "key": "no local branch or atm",
+                      "doc_count": 174
+                    },
+                    {
+                      "key": "increase mobile check deposit limit",
+                      "doc_count": 126
+                    },
+                    {
+                      "key": "business and personal account, one log in ",
+                      "doc_count": 106
+                    },
+                    {
+                      "key": "other bank's app better; compare competitor apps",
+                      "doc_count": 101
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 77
+                    },
+                    {
+                      "key": "clear easy instructions",
+                      "doc_count": 72
+                    },
+                    {
+                      "key": "high interest rate after promo apr",
+                      "doc_count": 65
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 64
+                    },
+                    {
+                      "key": "credit card recommendation",
+                      "doc_count": 56
+                    },
+                    {
+                      "key": "mobile check deposit hard to take picture",
+                      "doc_count": 53
+                    },
+                    {
+                      "key": "long term customer experience ",
+                      "doc_count": 52
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile App Perf",
+                "doc_count": 1863,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 16,
+                  "sum_other_doc_count": 613,
+                  "buckets": [
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 244
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 198
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 182
+                    },
+                    {
+                      "key": "ipad landscape mode feature request UI",
+                      "doc_count": 147
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 134
+                    },
+                    {
+                      "key": "credit card recommendation",
+                      "doc_count": 83
+                    },
+                    {
+                      "key": "feedback score reasoning",
+                      "doc_count": 54
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 48
+                    },
+                    {
+                      "key": "other bank's app better; compare competitor apps",
+                      "doc_count": 46
+                    },
+                    {
+                      "key": "app/website design, easy to use, clean UI",
+                      "doc_count": 39
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 38
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 37
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Transactions",
+                "doc_count": 1623,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 16,
+                  "sum_other_doc_count": 711,
+                  "buckets": [
+                    {
+                      "key": "can't see recent transactions",
+                      "doc_count": 177
+                    },
+                    {
+                      "key": "search fiilter transaction problem",
+                      "doc_count": 108
+                    },
+                    {
+                      "key": "accurate expense tagging track spending feature request",
+                      "doc_count": 107
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 90
+                    },
+                    {
+                      "key": "include pending in total/running total",
+                      "doc_count": 79
+                    },
+                    {
+                      "key": "show running balance transaction details",
+                      "doc_count": 75
+                    },
+                    {
+                      "key": "pending transactions taking too long",
+                      "doc_count": 73
+                    },
+                    {
+                      "key": "dispute issue",
+                      "doc_count": 52
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 45
+                    },
+                    {
+                      "key": "costco visa benefit",
+                      "doc_count": 38
+                    },
+                    {
+                      "key": "information provided",
+                      "doc_count": 36
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 32
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Paymt Flow",
+                "doc_count": 1555,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 11,
+                  "sum_other_doc_count": 507,
+                  "buckets": [
+                    {
+                      "key": "slow loading",
+                      "doc_count": 422
+                    },
+                    {
+                      "key": "server loading error",
+                      "doc_count": 244
+                    },
+                    {
+                      "key": "user experience technical difficulty",
+                      "doc_count": 74
+                    },
+                    {
+                      "key": "statement download issue",
+                      "doc_count": 72
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 53
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 43
+                    },
+                    {
+                      "key": "log in/out issue",
+                      "doc_count": 33
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 23
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 22
+                    },
+                    {
+                      "key": "multiple attempts to log in (repeat process)",
+                      "doc_count": 22
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 20
+                    },
+                    {
+                      "key": "phone/chat wait time too long",
+                      "doc_count": 20
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Opinion Lab",
+          "doc_count": 42531,
+          "group_by_category": {
+            "doc_count_error_upper_bound": 87,
+            "sum_other_doc_count": 5173,
+            "buckets": [
+              {
+                "key": "Unknown-main",
+                "doc_count": 15388,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 71,
+                  "sum_other_doc_count": 3701,
+                  "buckets": [
+                    {
+                      "key": "Unknown",
+                      "doc_count": 9903
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 365
+                    },
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 207
+                    },
+                    {
+                      "key": "cant enter number",
+                      "doc_count": 168
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 165
+                    },
+                    {
+                      "key": "replacement card delivery method",
+                      "doc_count": 163
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 143
+                    },
+                    {
+                      "key": "information provided",
+                      "doc_count": 124
+                    },
+                    {
+                      "key": "travel notification problem",
+                      "doc_count": 121
+                    },
+                    {
+                      "key": "due date wrong, payment not posting by due date complaint",
+                      "doc_count": 111
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 111
+                    },
+                    {
+                      "key": "send receive email message mail",
+                      "doc_count": 106
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Login/Auth",
+                "doc_count": 7002,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 68,
+                  "sum_other_doc_count": 2961,
+                  "buckets": [
+                    {
+                      "key": "touchID password not recognized, had to reset; can't paste password",
+                      "doc_count": 905
+                    },
+                    {
+                      "key": "fingerPrint/touch/sign in/out issue",
+                      "doc_count": 594
+                    },
+                    {
+                      "key": "log in/out issue",
+                      "doc_count": 589
+                    },
+                    {
+                      "key": "fingerPrint/touchID sign in enable/disable",
+                      "doc_count": 370
+                    },
+                    {
+                      "key": "had To Log In Out multiple times",
+                      "doc_count": 345
+                    },
+                    {
+                      "key": "security verification difficulty ",
+                      "doc_count": 233
+                    },
+                    {
+                      "key": "email notification alert ",
+                      "doc_count": 189
+                    },
+                    {
+                      "key": "lock/unlock security feature",
+                      "doc_count": 184
+                    },
+                    {
+                      "key": "iphoneX faceID support",
+                      "doc_count": 176
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 167
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 152
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 137
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Due Date",
+                "doc_count": 2329,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 12,
+                  "sum_other_doc_count": 519,
+                  "buckets": [
+                    {
+                      "key": "highlight due date on app calendar",
+                      "doc_count": 806
+                    },
+                    {
+                      "key": "due date wrong, payment not posting by due date complaint",
+                      "doc_count": 227
+                    },
+                    {
+                      "key": "show amount due",
+                      "doc_count": 211
+                    },
+                    {
+                      "key": "payment date selected invalid",
+                      "doc_count": 175
+                    },
+                    {
+                      "key": "email notification alert ",
+                      "doc_count": 86
+                    },
+                    {
+                      "key": "payments take too long, make same day request",
+                      "doc_count": 78
+                    },
+                    {
+                      "key": "show remaining balance",
+                      "doc_count": 43
+                    },
+                    {
+                      "key": "interest, late fees complaint",
+                      "doc_count": 40
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 39
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 38
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 37
+                    },
+                    {
+                      "key": "cant enter number",
+                      "doc_count": 30
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile Chk Dep",
+                "doc_count": 1936,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 15,
+                  "sum_other_doc_count": 647,
+                  "buckets": [
+                    {
+                      "key": "mobile check deposit hard to take picture",
+                      "doc_count": 351
+                    },
+                    {
+                      "key": "mobile check deposit issues",
+                      "doc_count": 336
+                    },
+                    {
+                      "key": "increase mobile check deposit limit",
+                      "doc_count": 216
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 78
+                    },
+                    {
+                      "key": "increase mobile check deposit",
+                      "doc_count": 58
+                    },
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 54
+                    },
+                    {
+                      "key": "page not loading spining",
+                      "doc_count": 39
+                    },
+                    {
+                      "key": "due date wrong, payment not posting by due date complaint",
+                      "doc_count": 36
+                    },
+                    {
+                      "key": "replacement card delivery method",
+                      "doc_count": 33
+                    },
+                    {
+                      "key": "snapshot feature fail",
+                      "doc_count": 31
+                    },
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 30
+                    },
+                    {
+                      "key": "add memo feauture request",
+                      "doc_count": 27
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile App Perf",
+                "doc_count": 1668,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 9,
+                  "sum_other_doc_count": 389,
+                  "buckets": [
+                    {
+                      "key": "ipad landscape mode feature request UI",
+                      "doc_count": 532
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 183
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 171
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 111
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 79
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 43
+                    },
+                    {
+                      "key": "iphoneX faceID support",
+                      "doc_count": 37
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 29
+                    },
+                    {
+                      "key": "UI color contrast; app blank screen",
+                      "doc_count": 27
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 23
+                    },
+                    {
+                      "key": "snapshot feature fail",
+                      "doc_count": 23
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 21
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Live Chat",
+                "doc_count": 1583,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 6,
+                  "sum_other_doc_count": 313,
+                  "buckets": [
+                    {
+                      "key": "dissatisfying live chat experience",
+                      "doc_count": 668
+                    },
+                    {
+                      "key": "phone/chat wait time too long",
+                      "doc_count": 78
+                    },
+                    {
+                      "key": "chat session expired error ",
+                      "doc_count": 77
+                    },
+                    {
+                      "key": "customer service representitve communication (accent)",
+                      "doc_count": 77
+                    },
+                    {
+                      "key": "poor customer service",
+                      "doc_count": 70
+                    },
+                    {
+                      "key": "send receive email message mail",
+                      "doc_count": 65
+                    },
+                    {
+                      "key": "good service",
+                      "doc_count": 54
+                    },
+                    {
+                      "key": "professinal courteous helpful staff",
+                      "doc_count": 54
+                    },
+                    {
+                      "key": "calling customer service issues",
+                      "doc_count": 37
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 33
+                    },
+                    {
+                      "key": "safe secure service",
+                      "doc_count": 29
+                    },
+                    {
+                      "key": "can't find page tab UI",
+                      "doc_count": 28
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Web UI/UX",
+                "doc_count": 1461,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 15,
+                  "sum_other_doc_count": 685,
+                  "buckets": [
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 112
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 105
+                    },
+                    {
+                      "key": "paperless statement harrasment popup",
+                      "doc_count": 98
+                    },
+                    {
+                      "key": "annoying feedback botton flashing",
+                      "doc_count": 71
+                    },
+                    {
+                      "key": "UI color contrast; app blank screen",
+                      "doc_count": 69
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 61
+                    },
+                    {
+                      "key": "font size contrast highlight",
+                      "doc_count": 60
+                    },
+                    {
+                      "key": "snapshot issue; site visit feedback",
+                      "doc_count": 46
+                    },
+                    {
+                      "key": "link not working; link and unlink accounts UI",
+                      "doc_count": 42
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 40
+                    },
+                    {
+                      "key": "button placement wrong",
+                      "doc_count": 39
+                    },
+                    {
+                      "key": "browser issues; out dated error ",
+                      "doc_count": 33
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Bill Pay",
+                "doc_count": 1460,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 18,
+                  "sum_other_doc_count": 758,
+                  "buckets": [
+                    {
+                      "key": "add payee/pay by paper check slow",
+                      "doc_count": 231
+                    },
+                    {
+                      "key": "due date wrong, payment not posting by due date complaint",
+                      "doc_count": 70
+                    },
+                    {
+                      "key": "show amount due",
+                      "doc_count": 53
+                    },
+                    {
+                      "key": "cant enter number",
+                      "doc_count": 47
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 45
+                    },
+                    {
+                      "key": "interest, late fees complaint",
+                      "doc_count": 44
+                    },
+                    {
+                      "key": "autopay setup, cancel difficulty",
+                      "doc_count": 42
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 41
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 41
+                    },
+                    {
+                      "key": "payments take too long, make same day request",
+                      "doc_count": 30
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 29
+                    },
+                    {
+                      "key": "pending transactions taking too long",
+                      "doc_count": 29
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Transactions",
+                "doc_count": 1440,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 9,
+                  "sum_other_doc_count": 371,
+                  "buckets": [
+                    {
+                      "key": "can't see recent transactions",
+                      "doc_count": 188
+                    },
+                    {
+                      "key": "include pending in total/running total",
+                      "doc_count": 170
+                    },
+                    {
+                      "key": "search fiilter transaction problem",
+                      "doc_count": 131
+                    },
+                    {
+                      "key": "accurate expense tagging track spending feature request",
+                      "doc_count": 120
+                    },
+                    {
+                      "key": "show running balance transaction details",
+                      "doc_count": 120
+                    },
+                    {
+                      "key": "cant see current statement",
+                      "doc_count": 73
+                    },
+                    {
+                      "key": "dispute issue",
+                      "doc_count": 60
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 56
+                    },
+                    {
+                      "key": "pending transactions taking too long",
+                      "doc_count": 56
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 38
+                    },
+                    {
+                      "key": "interest, late fees complaint",
+                      "doc_count": 30
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 27
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Paymt Flow",
+                "doc_count": 1395,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 11,
+                  "sum_other_doc_count": 535,
+                  "buckets": [
+                    {
+                      "key": "server loading error",
+                      "doc_count": 308
+                    },
+                    {
+                      "key": "slow loading",
+                      "doc_count": 248
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 39
+                    },
+                    {
+                      "key": "statement download issue",
+                      "doc_count": 38
+                    },
+                    {
+                      "key": "page not loading spining",
+                      "doc_count": 33
+                    },
+                    {
+                      "key": "due date wrong, payment not posting by due date complaint",
+                      "doc_count": 32
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 32
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 29
+                    },
+                    {
+                      "key": "replacement card delivery method",
+                      "doc_count": 28
+                    },
+                    {
+                      "key": "link not working; link and unlink accounts UI",
+                      "doc_count": 26
+                    },
+                    {
+                      "key": "phone/chat wait time too long",
+                      "doc_count": 24
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 23
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Link Accounts",
+                "doc_count": 987,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 10,
+                  "sum_other_doc_count": 440,
+                  "buckets": [
+                    {
+                      "key": "multiple attempts to log in (repeat process)",
+                      "doc_count": 92
+                    },
+                    {
+                      "key": "add/remove option user",
+                      "doc_count": 76
+                    },
+                    {
+                      "key": "business and personal account, one log in ",
+                      "doc_count": 64
+                    },
+                    {
+                      "key": "link not working; link and unlink accounts UI",
+                      "doc_count": 64
+                    },
+                    {
+                      "key": "costco visa benefit",
+                      "doc_count": 52
+                    },
+                    {
+                      "key": "card activation problem",
+                      "doc_count": 50
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 29
+                    },
+                    {
+                      "key": "had To Log In Out multiple times",
+                      "doc_count": 28
+                    },
+                    {
+                      "key": "page not loading spining",
+                      "doc_count": 27
+                    },
+                    {
+                      "key": "travel notification problem",
+                      "doc_count": 26
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 18
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Statements",
+                "doc_count": 709,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 5,
+                  "sum_other_doc_count": 222,
+                  "buckets": [
+                    {
+                      "key": "cant see current statement",
+                      "doc_count": 108
+                    },
+                    {
+                      "key": "statement download issue",
+                      "doc_count": 79
+                    },
+                    {
+                      "key": "unable to print statement, confirmation number",
+                      "doc_count": 61
+                    },
+                    {
+                      "key": "paperless statement harrasment popup",
+                      "doc_count": 56
+                    },
+                    {
+                      "key": "due date wrong, payment not posting by due date complaint",
+                      "doc_count": 37
+                    },
+                    {
+                      "key": "send receive email message mail",
+                      "doc_count": 30
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 25
+                    },
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 24
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 20
+                    },
+                    {
+                      "key": "can't see recent transactions",
+                      "doc_count": 18
+                    },
+                    {
+                      "key": "can't find page tab UI",
+                      "doc_count": 15
+                    },
+                    {
+                      "key": "accurate expense tagging track spending feature request",
+                      "doc_count": 14
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "Play Store",
+          "doc_count": 5432,
+          "group_by_category": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 109,
+            "buckets": [
+              {
+                "key": "Unknown-main",
+                "doc_count": 2115,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 5,
+                  "sum_other_doc_count": 259,
+                  "buckets": [
+                    {
+                      "key": "Unknown",
+                      "doc_count": 1425
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 81
+                    },
+                    {
+                      "key": "excessive permissions privacy",
+                      "doc_count": 64
+                    },
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 55
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 55
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 39
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 32
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 26
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 19
+                    },
+                    {
+                      "key": "replacement card delivery method",
+                      "doc_count": 18
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Login/Auth",
+                "doc_count": 1356,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 7,
+                  "sum_other_doc_count": 328,
+                  "buckets": [
+                    {
+                      "key": "fingerPrint/touchID sign in enable/disable",
+                      "doc_count": 175
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 151
+                    },
+                    {
+                      "key": "log in/out issue",
+                      "doc_count": 141
+                    },
+                    {
+                      "key": "had To Log In Out multiple times",
+                      "doc_count": 126
+                    },
+                    {
+                      "key": "fingerPrint/touch/sign in/out issue",
+                      "doc_count": 98
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 83
+                    },
+                    {
+                      "key": "excessive permissions privacy",
+                      "doc_count": 58
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 50
+                    },
+                    {
+                      "key": "touchID password not recognized, had to reset; can't paste password",
+                      "doc_count": 41
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 37
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 37
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 31
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile App Perf",
+                "doc_count": 905,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 3,
+                  "sum_other_doc_count": 112,
+                  "buckets": [
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 286
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 173
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 68
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 62
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 61
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 51
+                    },
+                    {
+                      "key": "server loading error",
+                      "doc_count": 26
+                    },
+                    {
+                      "key": "slow loading",
+                      "doc_count": 26
+                    },
+                    {
+                      "key": "user experience technical difficulty",
+                      "doc_count": 12
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 10
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 10
+                    },
+                    {
+                      "key": "other bank's app better; compare competitor apps",
+                      "doc_count": 8
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Paymt Flow",
+                "doc_count": 502,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 1,
+                  "sum_other_doc_count": 98,
+                  "buckets": [
+                    {
+                      "key": "slow loading",
+                      "doc_count": 151
+                    },
+                    {
+                      "key": "server loading error",
+                      "doc_count": 82
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 43
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 29
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 22
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 19
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 15
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 12
+                    },
+                    {
+                      "key": "page not loading spining",
+                      "doc_count": 9
+                    },
+                    {
+                      "key": "log in/out issue",
+                      "doc_count": 8
+                    },
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 7
+                    },
+                    {
+                      "key": "feedback score reasoning",
+                      "doc_count": 7
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile Chk Dep",
+                "doc_count": 127,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 35,
+                  "buckets": [
+                    {
+                      "key": "increase mobile check deposit limit",
+                      "doc_count": 18
+                    },
+                    {
+                      "key": "excessive permissions privacy",
+                      "doc_count": 16
+                    },
+                    {
+                      "key": "mobile check deposit issues",
+                      "doc_count": 16
+                    },
+                    {
+                      "key": "mobile check deposit hard to take picture",
+                      "doc_count": 8
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 7
+                    },
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "business and personal account, one log in ",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "add memo feauture request",
+                      "doc_count": 2
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Bill Pay",
+                "doc_count": 118,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 25,
+                  "buckets": [
+                    {
+                      "key": "add payee/pay by paper check slow",
+                      "doc_count": 34
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 11
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 10
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 7
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "excessive permissions privacy",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "calling customer service issues",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 3
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Link Accounts",
+                "doc_count": 40,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 12,
+                  "buckets": [
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "multiple attempts to log in (repeat process)",
+                      "doc_count": 5
+                    },
+                    {
+                      "key": "card activation problem",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "link not working; link and unlink accounts UI",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "cant enter number",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "cash back rewards program challenge",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "chat session expired error ",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Zelle",
+                "doc_count": 39,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "send money, popmoney, zelle android feature",
+                      "doc_count": 31
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "autopay setup, cancel difficulty",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "lock/unlock security feature",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Transactions",
+                "doc_count": 37,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 5,
+                  "buckets": [
+                    {
+                      "key": "can't see recent transactions",
+                      "doc_count": 12
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 5
+                    },
+                    {
+                      "key": "accurate expense tagging track spending feature request",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "payments take too long, make same day request",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "search fiilter transaction problem",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "show running balance transaction details",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "autopay setup, cancel difficulty",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "excessive permissions privacy",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "feedback score reasoning",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Transfer",
+                "doc_count": 36,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 10,
+                  "buckets": [
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "send money, popmoney, zelle android feature",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "add/remove option user",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "had To Log In Out multiple times",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "server loading error",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "snapshot feature fail",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "can't find page tab UI",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "can't see recent transactions",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Web UI/UX",
+                "doc_count": 25,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 4,
+                  "buckets": [
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "UI color contrast; app blank screen",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "feedback score reasoning",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "paperless statement harrasment popup",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "calling customer service issues",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "payments take too long, make same day request",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Extra Pay",
+                "doc_count": 23,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 4,
+                  "buckets": [
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "due date wrong, payment not posting by due date complaint",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "can't find page tab UI",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "credit line increase",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "page not loading spining",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "paperless statement harrasment popup",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "key": "App Store",
+          "doc_count": 2371,
+          "group_by_category": {
+            "doc_count_error_upper_bound": 0,
+            "sum_other_doc_count": 92,
+            "buckets": [
+              {
+                "key": "Unknown-main",
+                "doc_count": 1093,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 5,
+                  "sum_other_doc_count": 246,
+                  "buckets": [
+                    {
+                      "key": "Unknown",
+                      "doc_count": 560
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 79
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 30
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 29
+                    },
+                    {
+                      "key": "safe secure service",
+                      "doc_count": 26
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 25
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 23
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 17
+                    },
+                    {
+                      "key": "replacement card delivery method",
+                      "doc_count": 17
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 17
+                    },
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 12
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 12
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Login/Auth",
+                "doc_count": 543,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 5,
+                  "sum_other_doc_count": 239,
+                  "buckets": [
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 53
+                    },
+                    {
+                      "key": "website/app, user friendly, easy to navigate",
+                      "doc_count": 34
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 33
+                    },
+                    {
+                      "key": "fingerPrint/touchID sign in enable/disable",
+                      "doc_count": 25
+                    },
+                    {
+                      "key": "lock/unlock security feature",
+                      "doc_count": 25
+                    },
+                    {
+                      "key": "touchID password not recognized, had to reset; can't paste password",
+                      "doc_count": 25
+                    },
+                    {
+                      "key": "iphoneX faceID support",
+                      "doc_count": 24
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 22
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "fingerPrint/touch/sign in/out issue",
+                      "doc_count": 15
+                    },
+                    {
+                      "key": "mobile app lack desktop features",
+                      "doc_count": 14
+                    },
+                    {
+                      "key": "log in/out issue",
+                      "doc_count": 13
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile App Perf",
+                "doc_count": 159,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 28,
+                  "buckets": [
+                    {
+                      "key": "ipad landscape mode feature request UI",
+                      "doc_count": 28
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 21
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 17
+                    },
+                    {
+                      "key": "iphoneX faceID support",
+                      "doc_count": 11
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "feedback score reasoning",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 5
+                    },
+                    {
+                      "key": "too many temporary delay unavailable error",
+                      "doc_count": 5
+                    },
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "replacement card delivery method",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "cant find the right page UI",
+                      "doc_count": 3
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Bill Pay",
+                "doc_count": 134,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 44,
+                  "buckets": [
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 30
+                    },
+                    {
+                      "key": "add payee/pay by paper check slow",
+                      "doc_count": 18
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 9
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 7
+                    },
+                    {
+                      "key": "accurate expense tagging track spending feature request",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "can't see recent transactions",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "costco visa benefit",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "online banking user experience",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "previous version comparison ",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "snapshot issue; site visit feedback",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 3
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Mobile Chk Dep",
+                "doc_count": 105,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 32,
+                  "buckets": [
+                    {
+                      "key": "mobile check deposit issues",
+                      "doc_count": 20
+                    },
+                    {
+                      "key": "increase mobile check deposit limit",
+                      "doc_count": 13
+                    },
+                    {
+                      "key": "mobile check deposit hard to take picture",
+                      "doc_count": 9
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 6
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "other bank's app better; compare competitor apps",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "no local branch or atm",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 2
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Link Accounts",
+                "doc_count": 50,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 15,
+                  "buckets": [
+                    {
+                      "key": "costco visa benefit",
+                      "doc_count": 7
+                    },
+                    {
+                      "key": "multiple attempts to log in (repeat process)",
+                      "doc_count": 7
+                    },
+                    {
+                      "key": "card activation problem",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "business and personal account, one log in ",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "credit line increase",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "lock/unlock security feature",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "add/remove option user",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "app/website design, easy to use, clean UI",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Paymt Flow",
+                "doc_count": 47,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 6,
+                  "buckets": [
+                    {
+                      "key": "server loading error",
+                      "doc_count": 17
+                    },
+                    {
+                      "key": "slow loading",
+                      "doc_count": 5
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "feedback score reasoning",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "replacement card delivery method",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "statement download issue",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "chat session expired error ",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Due Date",
+                "doc_count": 43,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 9,
+                  "buckets": [
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 11
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 8
+                    },
+                    {
+                      "key": "highlight due date on app calendar",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "fast efficent response",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "show amount due",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "add/remove option user",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "autopay setup, cancel difficulty",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "clear easy instructions",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Transfer",
+                "doc_count": 34,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 2,
+                  "buckets": [
+                    {
+                      "key": "Spanish comment",
+                      "doc_count": 10
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 7
+                    },
+                    {
+                      "key": "app crash freeze uninstall reinstall",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "app glitches freezes ",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "too much app update fico update",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "website/app, user friendly, easy to navigate",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "high interest rate after promo apr",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "page not loading spining",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Transactions",
+                "doc_count": 31,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 7,
+                  "buckets": [
+                    {
+                      "key": "search fiilter transaction problem",
+                      "doc_count": 4
+                    },
+                    {
+                      "key": "accurate expense tagging track spending feature request",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "can't see recent transactions",
+                      "doc_count": 3
+                    },
+                    {
+                      "key": "feedback score reasoning",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "information provided",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "payment not reflected in balance fast",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "show running balance transaction details",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "useless app crashes",
+                      "doc_count": 2
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "cant see current statement",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "credit card recommendation",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Web UI/UX",
+                "doc_count": 21,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 1,
+                  "buckets": [
+                    {
+                      "key": "website easy to use",
+                      "doc_count": 9
+                    },
+                    {
+                      "key": "UI color contrast; app blank screen",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "annoying feedback botton flashing",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "app website simple easy UI",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "button placement wrong",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "can't deposit money order",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "connectivity issue sign in",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "easy to use positive",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "font size contrast highlight",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "paperless statement harrasment popup",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "payment system failure ",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "quick efficient customer service",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "key": "Customer Service",
+                "doc_count": 19,
+                "group_by_category": {
+                  "doc_count_error_upper_bound": 0,
+                  "sum_other_doc_count": 0,
+                  "buckets": [
+                    {
+                      "key": "poor customer service",
+                      "doc_count": 14
+                    },
+                    {
+                      "key": "calling customer service issues",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "convenient easy to use",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "good service",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "long term customer experience ",
+                      "doc_count": 1
+                    },
+                    {
+                      "key": "other bank's app better; compare competitor apps",
+                      "doc_count": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

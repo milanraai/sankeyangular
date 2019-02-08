@@ -46,70 +46,53 @@ export class AppComponent implements OnInit{
           .attr("font-size", 10)
           .selectAll("g");
 
-      d3.json("../assets/data.json", function (error, data: any) {
+      d3.json("../assets/kibana.json", function (error, data: any) {
           if (error) throw error;
 
          ////////added data manupulations
          
-         var makeObj = function(orObj, index) {
-            let obj = {};
-            obj['nodeId'] = index;
-            obj['name'] = orObj;
-            return obj;
-          };
-          
-          function recur(old, arr) {
-            arr.forEach((data, index) => {
-              if (old.indexOf(data.key) < 0 && data.key != "Positive Comment") {
-                //remove duplicates
-                old.push(data.key);
-              }
-              if (
-                data.group_by_category !== undefined &&
-                data.group_by_category.buckets.length > 0
-              ) {
-                recur(old, data.group_by_category.buckets);
-              }
-            });
-            return old;
-          }
-          
-          var uniqueKeys = recur([], data.aggregations.group_by_category.buckets);
-          
-          var nodes = uniqueKeys.map((data, index) => {
-            return makeObj(data, index);
-          });
-
-          var links = [];
-          
-          var getNodeId = function(nodes, key){
-            var sourceId = nodes.find(da=>{
-              return da.name == key;
-            });
-            return sourceId.nodeId;
-          }
-          
-          data.aggregations.group_by_category.buckets.map((data)=>{
-            let source = getNodeId(nodes, data.key);
-            if(data.group_by_category.buckets){
-              data.group_by_category.buckets.map(data2=>{
-                if(data2.key != "Positive Comment"){
-                let target = getNodeId(nodes, data2.key);
-                let linkObj = {};
-                linkObj['source']= source;
-                linkObj['target'] = target;
-                linkObj['value'] = data2.doc_count;
-                linkObj['uom'] = "'Widget(s)'";
-                links.push(linkObj);
-                }
-              })
-            }
-          })
-          
-
-         data = {
-            nodes, links
+         function getData(input, visited=new Map(), parent, nodes=[], links=[])
+         {
+             input.forEach(x =>
+             {
+                 // Add node into the node list, if not visited previosuly.
+         
+                 if (!visited.has(x.key))
+                 {
+                     let currId = nodes.length;
+                     nodes.push({nodeId: currId, name: x.key});
+                     visited.set(x.key, currId);
+                 }
+         
+                 // If a parent node exists, add relation into the links list.
+         
+                 if (parent)
+                 {
+                     // Note, we use the "Map" to get the ids.
+                     //if(parent.key != x.key){
+                     links.push({
+                         source: visited.get(parent.key),
+                         target: visited.get(x.key),
+                         value: x.doc_count,
+                         "uom": "'Widget(s)'"
+                     });
+                     //}
+                 }
+         
+                 // Traverse (if required) to the next level of deep.
+         
+                 if (x.group_by_category && x.group_by_category.buckets)
+                     getData(x.group_by_category.buckets, visited, x, nodes, links)
+             });
+         
+             return {nodes: nodes, links: links};
          }
+         
+          
+
+         data = getData(data.aggregations.group_by_category.buckets);
+
+
          console.log(data);
          ////end of adding
         
