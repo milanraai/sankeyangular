@@ -25,7 +25,7 @@
             "sum_other_doc_count": 8687,
             "buckets": [
               {
-                "key": "Unknown-main",
+                "key": "Unknown",
                 "doc_count": 54993,
                 "group_by_category": {
                   "doc_count_error_upper_bound": 395,
@@ -731,7 +731,7 @@
             "sum_other_doc_count": 5173,
             "buckets": [
               {
-                "key": "Unknown-main",
+                "key": "Unknown",
                 "doc_count": 15388,
                 "group_by_category": {
                   "doc_count_error_upper_bound": 71,
@@ -1437,7 +1437,7 @@
             "sum_other_doc_count": 109,
             "buckets": [
               {
-                "key": "Unknown-main",
+                "key": "Unknown",
                 "doc_count": 2115,
                 "group_by_category": {
                   "doc_count_error_upper_bound": 5,
@@ -2119,7 +2119,7 @@
             "sum_other_doc_count": 92,
             "buckets": [
               {
-                "key": "Unknown-main",
+                "key": "Unknown",
                 "doc_count": 1093,
                 "group_by_category": {
                   "doc_count_error_upper_bound": 5,

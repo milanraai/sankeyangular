@@ -46,6 +46,8 @@ export class AppComponent implements OnInit{
           .attr("font-size", 10)
           .selectAll("g");
 
+      var excludedNodes = ["Positive Comment", "Unknown"];
+
       d3.json("../assets/kibana.json", function (error, data: any) {
           if (error) throw error;
 
@@ -55,31 +57,28 @@ export class AppComponent implements OnInit{
          {
              input.forEach(x =>
              {
-                 // Add node into the node list, if not visited previosuly.
-         
                  if (!visited.has(x.key))
                  {
                      let currId = nodes.length;
-                     nodes.push({nodeId: currId, name: x.key});
-                     visited.set(x.key, currId);
+                     if(excludedNodes.indexOf(x.key) < 0){
+                        nodes.push({nodeId: currId, name: x.key});
+                        visited.set(x.key, currId);
+                     }
                  }
          
-                 // If a parent node exists, add relation into the links list.
          
                  if (parent)
                  {
-                     // Note, we use the "Map" to get the ids.
-                     //if(parent.key != x.key){
+                     if(excludedNodes.indexOf(parent.key) < 0 && excludedNodes.indexOf(x.key) < 0)   {
                      links.push({
                          source: visited.get(parent.key),
                          target: visited.get(x.key),
                          value: x.doc_count,
                          "uom": "'Widget(s)'"
                      });
-                     //}
+                    }
                  }
          
-                 // Traverse (if required) to the next level of deep.
          
                  if (x.group_by_category && x.group_by_category.buckets)
                      getData(x.group_by_category.buckets, visited, x, nodes, links)
@@ -88,10 +87,7 @@ export class AppComponent implements OnInit{
              return {nodes: nodes, links: links};
          }
          
-          
-
-         data = getData(data.aggregations.group_by_category.buckets);
-
+         data = getData(data.aggregations.group_by_category.buckets, new Map(), '', [], []);
 
          console.log(data);
          ////end of adding
